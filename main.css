@@ -1,0 +1,210 @@
+ 
+
+/* general */
+
+#wrapper{
+    max-width: 1500px;
+    margin:0 center;
+    padding: 0 5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*header */
+
+#logo {
+    text-align:center; 
+    margin: 0;
+}
+
+
+header {
+    background: #2f2f2f;
+    border-color: #599a68;
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
+}
+
+nav{    
+    color:black;
+        
+    font-family: 'Arimo', sans-serif;
+        
+/*    font-size: 1.75em;*/
+    margin: 20px 0 0;
+    padding: 10px 0;
+        margin: 20px 0;
+        line-height: 0.8em;
+/*        padding: 50px 0;*/
+        text-align: center;
+/*    width: 100%;*/
+/*    float:left;*/
+        letter-spacing: 0.05em;
+
+/*    margin: 20px 0 0;*/
+}
+
+nav ul{
+    list-style: none;
+    margin: 0.10px;
+    padding: 0;
+}
+
+nav li{
+display: inline-block;
+    
+}
+
+nav a {
+padding: 15px 30px;
+}
+
+
+
+
+/* colors */
+
+/* body */
+
+body{
+    color:#000}
+
+h1, h2 {
+    color: #FFF;
+}
+
+h1  {
+        color:#babfc1;
+        font-family: 'Oswald', sans-serif;
+        font-size: 5.75em;
+        margin: 15px 0;
+        line-height: 0.8em;
+    }
+
+h2 {    
+    font-family: 'Oswald', sans-serif;
+    color:#pink;
+    margin: -5px 0 0;
+    font-size: 0.75em;
+   }
+            
+p {
+        color: #000000;
+  }
+
+ul li{
+    list-style: none;
+    }
+
+
+nav a, nav a:visited {
+    color: #FFF;
+    }
+
+nav a.selected, nav a: hover {
+    color: #32673f;
+    }
+
+/*Footer section*/
+footer {
+
+    font-size: 0.75em;
+    text-align: center;
+    padding-top: 50px;
+    color: #ccc;
+    
+    clear: both;
+    
+    }
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+
+/*page for portfolio*/
+
+#gallery{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#gallery li {
+ float: left;
+ width: 45%;
+margin: 2.5%;
+background-color:#f5f5f5;
+    color:#bdc3c7;
+}
+
+#gallery li a p{
+    margin:0;
+    padding: 5%;
+    font-size: 0.75em;
+    color:#bdc3c7;
+
+}
+
+
+img {
+    max-width:100%;
+}
+
+
+
+/* Page : About */
+
+.profile-photo {
+    display: block;
+    max-width: 150px;
+    margin: 0 auto 30px;
+    border-radius: 100%;
+}
+/**/
+
+a {
+color:black
+}
+
+h3 {font-size: 1.3em;
+    letter-spacing: 0.15em;
+
+}
+    
+    
+/* Page/Contact */
+
+.contact-info {
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.contact-info a {
+    display: block;
+    min-height: 20px;
+    
+    background-repeat: no-repeat;
+        
+    background-size: 20px 20px;
+    padding:0 0 0 30px;
+    margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+  background-image: url("img/phone.png");
+}
+
+.contact-info li.mail a {
+  background-image: url("img/mail.png");
+}
+
+.contact-info li.twitter a {
+  background-image: url("img/twitter.png");
+}
